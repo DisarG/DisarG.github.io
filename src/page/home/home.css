@@ -1,0 +1,96 @@
+.main-home {
+  background-image: url(https://img.freepik.com/vector-gratis/iconos-gestion-tareas-tiempo-reloj-calendario-lista-verificacion-telefono-inteligente-aislado-sobre-fondo-blanco-simbolos-isometricos-planificacion-trabajo-productividad-organizacion-proyectos_107791-3886.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title-home {
+  text-align: center;
+  padding: 25px 0px 25px 0px;
+  color: #db3f7a;
+  background-color: #152938;
+  width: 700px;
+  margin: auto;
+  border-radius: 0px 0px 50px 50px;
+  margin-bottom: 10px;
+}
+
+.contenedor {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  grid-template-columns: repeat(2, 25%);
+  grid-column-gap: 10px;
+  margin-top: 5px;
+}
+
+.contenedor-hijo {
+  display: flex;
+  align-items: center;
+  color: #152938;
+  box-shadow: 2px 2px 8px 4px #152938;
+  padding: 15px;
+  padding-bottom: 35px;
+  margin: 10px;
+  flex-direction: column;
+  background-color: #2471a9;
+}
+
+.contenedor-hijo:nth-child(1) {
+  margin-top: 50px;
+  border-radius: 50px 0px;
+}
+
+.contenedor-hijo:nth-child(2) {
+  border-radius: 0px 50px;
+  margin-top: 50px;
+}
+
+.contenedor-hijo:nth-child(3) {
+  margin-bottom: 50px;
+  border-radius: 0px 50px;
+}
+
+.contenedor-hijo:nth-child(4) {
+  border-radius: 50px 0px;
+  margin-bottom: 50px;
+}
+
+.CTA {
+  display: flex;
+  flex-direction: column;
+  background-color: #2471a9;
+  padding: 20px 5px 20px 5px;
+  align-items: center;
+  width: 340px;
+  border-radius: 50px 0px;
+
+  color: #152938;
+  margin: auto;
+}
+
+.arrow {
+  font-size: 30px;
+  color: #db3f7a;
+  padding: 10px 0px 10px 0px;
+}
+
+.link-tareas {
+  border-radius: 7px;
+  background-color: #152938;
+  color: #db3f7a;
+  text-decoration: none;
+  text-align: center;
+  width: 110px;
+  padding: 5px;
+}
+
+.link-tareas:hover {
+  color: #152938;
+  background-color: #db3f7a;
+}
+
+.title-tareas {
+  color: #152938;
+}

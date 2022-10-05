@@ -1,0 +1,97 @@
+
+.Llamados{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://img.freepik.com/vector-gratis/iconos-gestion-tareas-tiempo-reloj-calendario-lista-verificacion-telefono-inteligente-aislado-sobre-fondo-blanco-simbolos-isometricos-planificacion-trabajo-productividad-organizacion-proyectos_107791-3886.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh);
+}
+
+.texto-span{
+  color: #12243b;
+  
+}
+
+.input-agregar{
+  background-color: #a7ceed ;
+  border: 2px solid #2069a3  ;
+  width: 500px;
+}
+
+
+.form {
+  display: flex;
+  align-items: center;
+  margin: 60px auto 0;
+}
+
+.form span {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.form input {
+  margin-right: 30px;
+}
+
+.guardado{
+  border: none;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+.form button {
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.validacion {
+  width: 80%;
+  color: red;
+  margin: 0 auto;
+}
+
+.lista {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+.tarea {
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  border: 1px solid rgb(122, 114, 114);
+  background-color:  #12243b ;
+  color:  #de3f7b;
+  padding: 10px;
+}
+
+.button {
+  width: 100px;
+  color: aliceblue;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+/*=====================*/
+.nuevoArray {
+  width: 80%;
+  margin: 150px auto 0;
+}
+
+.tareaH3 {
+  text-align: center;
+  font-size: 25px;
+  color:  #12243b ;
+}

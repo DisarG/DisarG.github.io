@@ -1,0 +1,41 @@
+
+.content-error {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 71vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/334/227/non_2x/404-error-background-with-glitch-effect-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:   #cec3f1 ;
+}
+
+.text-error{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.error-mmm{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.text-auth-error{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-error{
+    background-color: #c483cd ;
+    text-decoration: none;
+    color: #420a30 ;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}

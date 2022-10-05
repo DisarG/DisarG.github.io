@@ -1,0 +1,307 @@
+/* Font Robot*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+/* Font Righteous*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.icon-m {
+    width: 37px;
+    margin-right: 10px;
+}
+
+.title-nav {
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 3% 20%;
+    align-items: center;
+    background: #152938;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 0px 90px;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.title-l {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #d3d3d3;
+    margin: 10px 0px 20px 0px;
+}
+
+.input-l {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 77.9%;
+    font-size: 18px;
+    padding: 4px;
+    margin: 15px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #b3b2b2;
+}
+
+.btn-playlist {
+    background: #F50057;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    cursor: pointer;
+    padding: 15px 52.9px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.pass {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #009688;
+    margin: 25px 0px;
+}
+
+.acc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b1afaf;
+    margin: 30px 0px 10px 0px;
+}
+
+.btn-reg {
+    padding: 7px 100px;
+    border: 1px solid #009688;
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #009688;
+}
+
+.line-home {
+    border-bottom: 1px solid #E5E5E5;
+    width: 70%;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+
+    .nav-main {
+        display: flex;
+        flex-direction: row;
+        background: #009688;
+        justify-content: center;
+        padding: 17px;
+    }
+
+    .icon-m {
+        width: 37px;
+        margin-right: 10px;
+    }
+
+    .title-nav {
+        font-family: Righteous;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 40px;
+        text-decoration: none;
+        color: white;
+
+    }
+
+
+
+
+    .title-l {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+        color: #d3d3d3;
+        margin: 10px 0px 40px 0px;
+    }
+
+    .input-l {
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 90%;
+        font-size: 18px;
+        padding: 4px;
+        margin: 5px 0px 30px 0px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.15px;
+        color: #b3b2b2;
+    }
+
+    .btn-playlist {
+        background: #F50057;
+        border-radius: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        padding: 8px 10px;
+        width: 90%;
+        border: 1px solid #f50057;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+    }
+
+    .pass {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #009688;
+        margin: 25px 0px;
+    }
+
+    .acc {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #b1afaf;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .btn-reg {
+        padding: 7px 70px;
+        border: 1px solid #009688;
+        border-radius: 4px;
+        margin: 20px 0px 50px 0px;
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #009688;
+    }
+
+    .line-home {
+        border-bottom: 1px solid #E5E5E5;
+        width: 87%;
+        padding-top: 30px;
+    }
+
+    .formulario {
+        align-items: center;
+        display: flex;
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        background: white;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+
+}
+
+

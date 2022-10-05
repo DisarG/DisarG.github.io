@@ -1,0 +1,56 @@
+
+
+.formulario-contact {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: #2471a9;
+  margin: auto;
+  height: 75.9vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.form-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.titulo-form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 20px 20px 20px 120px;
+  color: #152938;
+}
+
+.form-label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 42px;
+  color: #152938;
+  font-size: 18px;
+}
+
+
+
+.input-form {
+  margin: 10px 0px 10px 42px;
+  border: 1px solid;
+  padding: 5px;
+  width: 500px;
+  border: none;
+}
+
+
+
+.btn-input {
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  color: aliceblue;
+  border-radius: 10px;
+  background-color: #152938;
+}
